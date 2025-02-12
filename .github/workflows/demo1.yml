@@ -43,3 +43,5 @@ jobs:
             name: dist-files
       - name: Deploy code
         run: echo "deployingg...."
+      - name: List files
+        run: ls
